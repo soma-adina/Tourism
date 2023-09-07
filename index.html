@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Tourism</title>
+</head>
+<body>
+    <div class="container">
+        <section class="navbar">
+            <div class="logo">LOGO</div>
+            <div class="drop-menu"><a href="#">Menu</a></div>
+            <ul class="nav-items">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Hotels</a></li>
+                <li><a href="#">Resorts</a></li>
+            </ul>
+            
+        </section>
+
+        <section class="main">
+            <div class="main-text">
+                <h1>TOURISM</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto 
+                    eum officiis assumenda architecto id alias quas inventore nulla 
+                    beatae deleniti?
+                </p>
+                <a href="#" class="btn">Search Locations</a>
+            </div>
+            <div class="main-img">
+
+                <div class="img-frame">
+                    <div class="frame-content">
+                        <h3>
+                            Hotels
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor, 
+                            sit amet consectetur adipisicing elit. 
+                            Ut adipisci velit vitae quos error sunt!
+                        </p>
+                        <a href="#">Explore</a>
+                    </div>
+                </div>
+
+                <div class="img-frame">
+                    <div class="frame-content">
+                        <h3>
+                            Play Grounds
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor, 
+                            sit amet consectetur adipisicing elit. 
+                            Ut adipisci velit vitae quos error sunt!
+                        </p>
+                        <a href="#">Explore</a>
+                    </div>
+                </div>
+
+                <div class="img-frame">
+                    <div class="frame-content">
+                        <h3>
+                            Outdoors
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor, 
+                            sit amet consectetur adipisicing elit. 
+                            Ut adipisci velit vitae quos error sunt!
+                        </p>
+                        <a href="#">Explore</a>
+                    </div>
+                </div>
+
+                <div class="img-frame">
+                    <div class="frame-content">
+                        <h3>
+                            Resorts
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor, 
+                            sit amet consectetur adipisicing elit. 
+                            Ut adipisci velit vitae quos error sunt!
+                        </p>
+                        <a href="#">Explore</a>
+                    </div>
+                </div>
+                
+
+
+            </div>
+        </section>
+    </div>
+<script>
+    let dropMenu=document.querySelector('.drop-menu')
+let navItems = document.querySelector('.nav-items')
+
+dropMenu.addEventListener("click", navToggle)
+
+function navToggle(){
+    navItems.classList.toggle('active')
+}
+</script>
+    <script src="js/script.js"></script>
+</body>
+</html>
